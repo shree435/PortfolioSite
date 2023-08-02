@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    color: black;
+  }
+  .dark-mode {
+    background-color: #36454F;
+    color: white;
+    
+  }
+  .dark_button{
+    width: 35%;
+    height: 5vh;
+  }
+  
+  .bannerimg{
+    height:100vh;
+    background: url("pictures/bg.png");
+    background-size:cover;
+    position: relative;
+  }
+  .banner-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+  }
+  .banner-title{
+    font-size: 5rem;
+  }
+  .banner-cont{
+    font-size: 2rem;
+  }
+  .card{
+    cursor: pointer;
+  }
+  .card:hover{
+    background-color: palevioletred;
+    border: 5px solid yellowgreen;
+  }
+  #footer{
+    background-color: #36454F;
+    color: white;
+    
+  }
